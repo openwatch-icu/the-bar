@@ -1,0 +1,4 @@
+# Ignore Rust target so the dev watcher doesn't trigger rebuild loops
+# (target is at repo root when using CARGO_TARGET_DIR=./target)
+../target/
+target/

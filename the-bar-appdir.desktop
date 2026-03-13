@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=The Bar
+Comment=Privacy-first chat (run from AppDir)
+Exec=/home/definitelynotnsa/git_projects/the-bar/src-tauri/target/release/bundle/appimage/the-bar.AppDir/run-the-bar.sh
+Icon=/home/definitelynotnsa/git_projects/the-bar/src-tauri/target/release/bundle/appimage/the-bar.AppDir/the-bar.png
+Categories=Network;Chat;
+Terminal=false
+StartupWMClass=app

@@ -1,0 +1,4 @@
+dist
+dist-app
+node_modules
+src/wiki/docList.js

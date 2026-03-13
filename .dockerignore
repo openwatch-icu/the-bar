@@ -1,0 +1,38 @@
+# Git and IDE
+.git
+.gitignore
+.cursor
+*.md
+!README.md
+
+# Frontend (not needed for server image)
+web/
+
+# Tauri / Node (not needed for server image)
+node_modules
+src-tauri/
+package.json
+package-lock.json
+
+# Build artifacts and local data
+chatdata/
+**/target/
+*.deb
+*.rpm
+*.AppImage
+
+# Env and misc
+.env
+.env.*
+!.env.example
+*.plan.md
+initial_idea.md
+PRIVACY.md
+
+# License server (separate service)
+cmd/licenseserver/
+
+# Test and dev
+**/testdata/
+*.test
+*_test.go

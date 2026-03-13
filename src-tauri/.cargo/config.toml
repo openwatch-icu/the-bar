@@ -1,0 +1,4 @@
+# When running cargo from src-tauri directly, use repo root target so it
+# matches npm scripts (CARGO_TARGET_DIR=./target) and avoids watcher loops.
+[build]
+target-dir = "../target"

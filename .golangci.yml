@@ -1,0 +1,15 @@
+# golangci-lint config for the-bar. Run via: golangci-lint run ./... or make lint
+version: "2"
+
+linters:
+  enable:
+    - govet
+    - errcheck
+    - staticcheck
+    - ineffassign
+    - gofmt
+  disable-default: true
+
+run:
+  timeout: 2m
+  modules-download-mode: readonly
